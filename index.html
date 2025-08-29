@@ -3,22 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Floral Fantasy</title>
     <link rel="shortcut icon" href="images/floral.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header section  -->
-    <header id="header">
-      <h1>Floral Fantasy</h1>
-      <p>Where bouquets are not only packed with flowers but also with love</p>
-    </header>
+    <div class="container">
+      <header id="header">
+        <h1>Floral Fantasy</h1>
+        <p>
+          " Where bouquets are not only packed with flowers but also with love "
+        </p>
+      </header>
+    </div>
+
+    <!-- navigation section -->
+    <nav>
+      <a href="#flowers">Flowers</a>
+      <a href="#about">About</a>
+      <a href="#buy">Buy</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
     <!-- flowers sold -->
     <section id="flowers">
       <h2>What we have in store</h2>
-      <h3>Flower types</h3>
+      <h3>Individual flowers</h3>
       <div class="card">
-        <img src="images/rose.jpg" alt="" />
+        <img src="images/rose.jpg" alt="" class="card-img-top" />
         <div class="card-body">
           <h4 class="card-title">Rose</h4>
           <p class="card-text">
@@ -29,7 +48,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/peony.jpg" alt="" />
+        <img src="images/peony.jpg" alt="" class="card-img-top" />
         <div class="card-body">
           <h4 class="card-title">Peony</h4>
           <p class="card-text">
@@ -40,7 +59,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/hydrangea.jpg" alt="" />
+        <img src="images/hydrangea.jpg" alt="" class="card-img-top" />
         <div class="card-body">
           <h4 class="card-title">Hydrangea</h4>
           <p class="card-text">
@@ -51,7 +70,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/carna.jpg" alt="" />
+        <img src="images/carna.jpg" alt="" class="card-img-top" />
         <div class="card-body">
           <h4 class="card-title">Carnation</h4>
           <p class="card-text">
@@ -62,7 +81,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/sunflowers.jpg" alt="" />
+        <img src="images/sunflowers.jpg" alt="" class="card-img-top" />
         <div class="card-body">
           <h4 class="card-title">Sunflowers</h4>
           <p class="card-text">
@@ -72,6 +91,150 @@
           </p>
         </div>
       </div>
+      <h3>Bouquet sets</h3>
+      <div class="card">
+        <img src="images/blue set.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Blue Blooms set</h4>
+          <p class="card-text">
+            - Blue aesthetic <br />
+            - Consists of many flower breeds<br />
+            - $35
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/purple.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Lavendar Looms set</h4>
+          <p class="card-text">
+            - Purple aesthetic <br />
+            - Consists of many flower breeds<br />
+            - $35
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/pink.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Pink Pastels set</h4>
+          <p class="card-text">
+            - Pink aesthetic <br />
+            - Consists of many flower breeds<br />
+            - $35
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/yellow.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Yellow Youth set</h4>
+          <p class="card-text">
+            - Yellow aesthetic <br />
+            - Consists of many flower breeds<br />
+            - $35
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/white bouquet.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">White Willows set</h4>
+          <p class="card-text">
+            - White aesthetic <br />
+            - Consists of many flower breeds<br />
+            - $35
+          </p>
+        </div>
+      </div>
     </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We believe flowers are more than just a gift; they're an expression of
+        emotion, a dash of color, and a way to celebrate life's special
+        moments.<br />
+
+        <br />
+        Our passion for flowers began years ago, and it's what drives us to
+        create stunning, one-of-a-kind arrangements for every occasion. We
+        specialize in working with locally sourced, seasonal blooms to ensure
+        the freshest and most vibrant flowers in every design.<br />
+
+        <br />
+        Whether you're looking for a simple bouquet to brighten someone's day, a
+        lavish arrangement for a wedding, or a custom creation for a special
+        event, we pour our heart into every petal. At Floral Fantasy, we're not
+        just selling flowers—we're helping you connect, celebrate, and create
+        beautiful memories. Come visit our shop and let us help you find the
+        perfect flowers for your story.
+      </p>
+    </section>
+
+    <!-- buying  -->
+    <section id="buy">
+      <h2>Buy our flowers in real life for a better experience!</h2>
+      <p></p>
+      <div class="card">
+        <img src="images/eagle.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Floral Fantasy : Branch 1</h4>
+          <p class="card-text">
+            867-5309 Wisteria Lane, Fairview, Eagle State, 90210, United States.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/branch2.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Floral Fantasy : Branch 2</h4>
+          <p class="card-text">
+            5350 Wilshire Blvd, Los Angeles, CA 90036, USA
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/branch3.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Floral Fantasy : Branch 3</h4>
+          <p class="card-text">9350 E Colfax Ave, Denver, CO 80220, USA</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <h2>Contact Us!</h2>
+      <p>
+        Please give us suggestions as we are doing whatever we can to improve
+        our shop!
+      </p>
+      <form action="" class="form-label">
+        <div>
+          <label for="">Your Name</label>
+          <input type="text" class="form-control" />
+        </div>
+      </form>
+      <br />
+      <form action="" class="form-label">
+        <div>
+          <label for="">Your Email</label>
+          <input type="text" class="form-control" />
+        </div>
+      </form>
+      <br />
+      <form action="" class="form-label">
+        <div>
+          <label for="">Your Message</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </form>
+      <input type="submit" value="Send Message" class="btn-send" />
+    </section>
+    <!-- footer section  -->
+    <footer>
+      <p>Copyright &copy; 2024. Floral Fantasy. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
