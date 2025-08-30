@@ -35,6 +35,7 @@ nav a {
 header,
 #flowers,
 #about,
+#garden,
 footer {
   border: 1px solid #ffffff;
   text-align: center;
@@ -48,6 +49,20 @@ header p {
   font-family: "Lato", sans-serif;
   font-style: italic;
   color: #808e72;
+}
+header a {
+  background-color: #c9d8bf;
+  color: #808e72;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  border-style: dotted;
+  width: 200px;
+  height: fit-content;
 }
 
 /* flowers section */
@@ -114,6 +129,13 @@ header p {
   text-align: left;
 }
 
+/* garden section */
+#garden {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+
 /* contact section */
 #contact {
   border: 1px solid #ffffff;
@@ -155,7 +177,7 @@ form div {
   width: 150px;
   height: 50px;
   background-color: #808e72;
-  color: #c9d8bf;
+  color: #d8c4e5;
   border-radius: 9px;
   border: none;
   margin-left: 250px;
